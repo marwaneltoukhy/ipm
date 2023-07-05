@@ -18,15 +18,16 @@ from click_default_group import DefaultGroup
 from . import __version__
 from .manage import (
     ls_remote_cmd,
-    ls_cmd,
-    output_cmd,
-    install_cmd,
-    uninstall_cmd,
-    check_cmd,
-    update_cmd,
-    precheck_cmd,
-    history_cmd,
-    install_from_manifest_cmd
+    info_cmd
+    # ls_cmd,
+    # output_cmd,
+    # install_cmd,
+    # uninstall_cmd,
+    # check_cmd,
+    # update_cmd,
+    # precheck_cmd,
+    # history_cmd,
+    # install_from_manifest_cmd
 )
 
 
@@ -40,16 +41,17 @@ def cli():
     pass
 
 
-cli.add_command(output_cmd)
+# cli.add_command(output_cmd)
 cli.add_command(ls_remote_cmd)
-cli.add_command(ls_cmd)
-cli.add_command(install_cmd)
-cli.add_command(uninstall_cmd)
-cli.add_command(check_cmd)
-cli.add_command(update_cmd)
-cli.add_command(precheck_cmd)
-cli.add_command(history_cmd)
-cli.add_command(install_from_manifest_cmd)
+cli.add_command(info_cmd)
+# cli.add_command(ls_cmd)
+# cli.add_command(install_cmd)
+# cli.add_command(uninstall_cmd)
+# cli.add_command(check_cmd)
+# cli.add_command(update_cmd)
+# cli.add_command(precheck_cmd)
+# cli.add_command(history_cmd)
+# cli.add_command(install_from_manifest_cmd)
 
 
 if __name__ == "__main__":
