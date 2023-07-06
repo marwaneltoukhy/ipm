@@ -6,8 +6,8 @@
         {
             "name": "spm_ip",
             "repo": "github.com/marwaneltoukhy/spm_ip",
-            "author": "efabless",
-            "email": "efabless@efabless.com",
+            "author": "marwaneltoukhy",
+            "email": "marwan.abbas@efabless.com",
             "type": "hard",
             "category": "digital",
             "tag": [
@@ -35,8 +35,8 @@
         {
             "name": "dummy_ip",
             "repo": "github.com/marwaneltoukhy/dummy_ip",
-            "author": "efabless",
-            "email": "efabless@efabless.com",
+            "author": "marwaneltoukhy",
+            "email": "marwan.abbas@efabless.com",
             "type": "hard",
             "category": "digital",
             "tag": [
